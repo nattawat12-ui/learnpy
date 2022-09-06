@@ -3,7 +3,6 @@
 #x = sum(range(1,number+1))
 #print(x)
 number = int(input('Enter number: '))
-s=0
-for i in range(1,number+1,1):
-    s+=i
-print('Sum:',s)
+for i in range(1,number+1):
+   a = sum(range(i+1))
+print('Sum:',a)
